@@ -1,0 +1,717 @@
+/Library/Java/JavaVirtualMachines/jdk-16.0.2.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=52039:/Applications/IntelliJ IDEA.app/Contents/bin -Dfile.encoding=UTF-8 -classpath /Users/roydon/IdeaProjects/PDP/Project3-Dungeon/out/production/Project3-Dungeon GameDriver 5 5 6 N 40
+----------------------------------------------------
+creating dungeon....DONE
+----------------------------------------------------
+Dungeon Initial State:
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Start Location: 01
+End Location: 32
+----------------------------------------------------
+adding player to the dungeon....DONE
+----------------------------------------------------
+0--P--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: East South West
+
+Current player details:
+Location: 01
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+----------------------------------------------------
+Move West- Player moved to Location 00
+----------------------------------------------------
+P--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East South
+
+Current player details:
+Location: 00
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+----------------------------------------------------
+Move East- Player moved to Location 01
+----------------------------------------------------
+0--P--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: East South West
+
+Current player details:
+Location: 01
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+----------------------------------------------------
+Move East- Player moved to Location 02
+----------------------------------------------------
+0--S--P--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 02
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+----------------------------------------------------
+Move East- Player moved to Location 03
+----------------------------------------------------
+0--S--0--P--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 4, Sapphires- 7, Rubies- 1
+Next possible moves: East South West
+
+Current player details:
+Location: 03
+Treasure: Diamonds- 4, Sapphires- 7, Rubies- 1
+----------------------------------------------------
+Move East- Player moved to Location 04
+----------------------------------------------------
+0--S--0--0--P
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: South West
+
+Current player details:
+Location: 04
+Treasure: Diamonds- 4, Sapphires- 7, Rubies- 1
+----------------------------------------------------
+Move South- Player moved to Location 14
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--P
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: North West
+
+Current player details:
+Location: 14
+Treasure: Diamonds- 4, Sapphires- 7, Rubies- 1
+----------------------------------------------------
+Move West- Player moved to Location 13
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--P--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 1, Sapphires- 1, Rubies- 4
+Next possible moves: North East West
+
+Current player details:
+Location: 13
+Treasure: Diamonds- 5, Sapphires- 8, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 12
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--P--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 12
+Treasure: Diamonds- 5, Sapphires- 8, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 11
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--P--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 6, Sapphires- 5, Rubies- 0
+Next possible moves: North East South West
+
+Current player details:
+Location: 11
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 10
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+P--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: North East
+
+Current player details:
+Location: 10
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 11
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--P--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East South West
+
+Current player details:
+Location: 11
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move South- Player moved to Location 21
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--P--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East West
+
+Current player details:
+Location: 21
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 22
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--P--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 22
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 23
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--P--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: East South West
+
+Current player details:
+Location: 23
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 24
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--P
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: South West
+
+Current player details:
+Location: 24
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move South- Player moved to Location 34
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--P
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: North West
+
+Current player details:
+Location: 34
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 33
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--P--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East West
+
+Current player details:
+Location: 33
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move North- Player moved to Location 23
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--P--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: East South West
+
+Current player details:
+Location: 23
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 22
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--P--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 22
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 21
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--P--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East West
+
+Current player details:
+Location: 21
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 20
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+P--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East South
+
+Current player details:
+Location: 20
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move South- Player moved to Location 30
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+P--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East South
+
+Current player details:
+Location: 30
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 31
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--P--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 31
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 30
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+P--0--E--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East South
+
+Current player details:
+Location: 30
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move South- Player moved to Location 40
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+P--0--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: North East
+
+Current player details:
+Location: 40
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 41
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--P--0--0--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 41
+Treasure: Diamonds- 11, Sapphires- 13, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 42
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--P--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 9, Sapphires- 5, Rubies- 0
+Next possible moves: North East West
+
+Current player details:
+Location: 42
+Treasure: Diamonds- 20, Sapphires- 18, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 43
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--P--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 43
+Treasure: Diamonds- 20, Sapphires- 18, Rubies- 5
+----------------------------------------------------
+Move East- Player moved to Location 44
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--0--P
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: West
+
+Current player details:
+Location: 44
+Treasure: Diamonds- 20, Sapphires- 18, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 43
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--0--P--0
+
+Current location details:
+Type: Tunnel
+Next possible moves: East West
+
+Current player details:
+Location: 43
+Treasure: Diamonds- 20, Sapphires- 18, Rubies- 5
+----------------------------------------------------
+Move West- Player moved to Location 42
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--P--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East West
+
+Current player details:
+Location: 42
+Treasure: Diamonds- 20, Sapphires- 18, Rubies- 5
+----------------------------------------------------
+Move South- Invalid move.
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--E--0--0
+|     |
+0--0--P--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+Next possible moves: North East West
+
+Current player details:
+Location: 42
+Treasure: Diamonds- 20, Sapphires- 18, Rubies- 5
+----------------------------------------------------
+Move North- Player moved to Location 32
+----------------------------------------------------
+0--S--0--0--0
+|  |     |  |
+0--0--0--0--0
+   |
+0--0--0--0--0
+|        |  |
+0--0--P--0--0
+|     |
+0--0--0--0--0
+
+Current location details:
+Type: Cave
+Treasure: Diamonds- 0, Sapphires- 0, Rubies- 0
+
+Current player details:
+Location: 32
+Treasure: Diamonds- 20, Sapphires- 18, Rubies- 5
+----------------------------------------------------
+Player reached the End location.
+Process finished with exit code 0
